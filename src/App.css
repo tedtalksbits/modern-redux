@@ -1,0 +1,26 @@
+table{
+   margin: 25px 0;
+   border-collapse: collapse;
+   font-size: 0.9rem;
+   width: 60%;
+   min-width: 400px;
+   margin: 7% auto 25px auto;
+}
+ thead tr{
+   background:linear-gradient(90deg, #991111 0%,#ef3838 100% );
+   text-align: left;
+   color: white;
+   text-transform: capitalize;
+}
+ th, td{
+   padding: 12px 15px;
+}
+tbody tr{
+   border-bottom: 1px solid lightgrey;
+}
+ tbody tr:nth-of-type(even){
+   background: #f3f3f3;
+}
+ tbody tr:last-of-type{
+   border-bottom: 2px #991111 solid;
+ }
